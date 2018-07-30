@@ -13,7 +13,8 @@ The software was developed with Python 3.6.
 Anaconda is an easy way to get a working python.
 Get it [here](https://www.anaconda.com/download/).
 
-The initial version of the simulator is tested on 64-bit python 3.6 as follows:
+After installing, run python from terminal.
+You may get an output similar to below:
 
 ```
 Python 3.6.1 | packaged by conda-forge | (default, May 23 2017, 14:21:39) [MSC v.1900 64 bit (AMD64)] on win32
@@ -23,7 +24,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 #### Get Python Packages
 
-The packages required by the simulator are:
+The packages used by sequential decision problem code base for ORF411 are:
 
 - numpy: used for pseudorandom number generator and many useful functions
 - openpyxl: used for Microsoft Excel xlsx input/output functionalities
