@@ -1,98 +1,52 @@
-This is python code base for ORF 411.
+# orf411
+Code base for ORF 411
+
+
+
+## Get the Newest Code
+
+You may clone this repository.  
+For your convenience, the ZIP file of the codes can be downloaded [here](https://github.com/donghun2018/orf411/archive/master.zip).
 
 ## Getting Started
 
-This section guides you how to setup your machine to run codes in this repository.
+These instructions will get you a copy of the Python codes and set up your local machine to run the codes.
 
 ### Prerequisites
 
-The software was developed with Python 3.6.
+This software was tested with Python 3.6.
 
-#### Get Python
+#### Python
 
-Anaconda is an easy way to get a working python.
+We recommend Anaconda as an easy way to get a working python system in your machine.
 Get it [here](https://www.anaconda.com/download/).
 
-After installing, run python from terminal.
-You may get an output similar to below:
+The code is developed and tested on 64-bit python 3.6.
 
-```
-Python 3.6.1 | packaged by conda-forge | (default, May 23 2017, 14:21:39) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-```
+#### Packages
 
-#### Get Python Packages
-
-The packages used by sequential decision problem code base for ORF411 are:
+The packages required by the code are:
 
 - numpy: used for pseudorandom number generator and many useful functions
+- scipy: used for more exotic functions that are not offered in numpy
 - openpyxl: used for Microsoft Excel xlsx input/output functionalities
 
 You may get these using conda
 
 ```
-$ conda install numpy openpyxl
+$ conda install numpy scipy openpyxl
 ```
 
-or using pip
+or using pip (if you already have Python in your machine and decided not to use Anaconda)
 
 ```
-$ pip install numpy openpyxl
+$ pip install numpy scipy openpyxl
 ```
 
-### Get the software
+## Problem Set 1
 
-Download the source codes by
+Description about problem set 1.
 
-```
-$ git clone https://github.com/donghun2018/orf411.git
-```
+## Problem Set 2
 
-If you do not have git, you may instead [download ZIP file from this link](https://github.com/donghun2018/orf411/archive/master.zip).
-
-
-## Overall Structure
-
-This section explains the overall code structure that is commonly found in all sequential decision making problems in this repository.
-
-### Model
-
-A model class is a particular modeling of a sequential decision problem.
-
-### Policy
-
-A policy class is a particular policy that solves a sequential decision problem.
-There may be more than one policy class implemented for a single sequential decision problem.
-
-### Driver Script
-
-A driver script initializes policy object and model object, then runs the policy on the model.
-Running a driver will generate some output, from which further tables, plots, and inferences can be made.
-
-## How To Run Each Problem Class
-
-### Asset Selling
-
-All codes are under Asset Selling directory.
-
-#### TL;DR
-
-```
-python AssetSellingPolicy
-```
-
-#### Code Structure
-
-- Model: AssetSellingModel.py
-- Policy: AssetSellingPolicy
-  -  sell_low_policy
-  - high_low_policy
-  - track_policy
-- Driver: AssetSellingPolicy's main function
-
-#### Detailed Explanation
-
-1. To run the asset selling model with a random policy, simply run AssetSellingModel.py as is. You will be able to see the output and can experiment with changing the value of the parameter (it is set at 0.8).
-2. To run the asset selling model with other available policies (sell-low, high-low and track policy), open AssetSellingPolicy.py, choose your desired policy by commenting out the other policies and run the code. Experiment with different policies and parameters.
-3. To run a full-grid search over theta values in the policies (as in the problem set), modify the identical code for full-grid search in EnergyStoragePolicy.py.
+Description about problem set 2.
