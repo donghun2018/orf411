@@ -1,12 +1,10 @@
-HOW TO RUN
+# Adaptive Market Planning Problem
 
-## Adaptive Market Planning
-
-All codes are under AdaptiveMarketPlanning directory.
+All codes are under Adaptive_Market_Planning directory.
 
 ### TL;DR
 
-py AdaptiveMarketPlanningDriverScript.py
+python AdaptiveMarketPlanningDriverScript.py
 
 ### Code Structure
 
