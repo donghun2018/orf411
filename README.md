@@ -45,8 +45,10 @@ $ pip install numpy scipy openpyxl
 
 ## Problem Set 1
 
-Description about problem set 1.
+All files related to Asset Selling problem is under directory [/Asset_Selling](/Asset_Selling).
+The detailed description of Asset Selling Problem is [here](/Asset_Selling/readme.md).
 
 ## Problem Set 2
 
-Description about problem set 2.
+All files related to Adaptive Market Planning is under directory [/Adaptive_Market_Planning](/Adaptive_Market_Planning).
+The detailed description of Asset Selling Problem is [here](/Adaptive_Market_Planning/README.md).
