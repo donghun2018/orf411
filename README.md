@@ -52,3 +52,35 @@ The detailed description of Asset Selling Problem is [here](/Asset_Selling/readm
 
 All files related to Adaptive Market Planning is under directory [/Adaptive_Market_Planning](/Adaptive_Market_Planning).
 The detailed description of Asset Selling Problem is [here](/Adaptive_Market_Planning/README.md).
+
+## Problem Set 3
+
+Diabetes Problem
+
+## Problem Set 4
+
+Static Stochastic Shortest Path Problem
+
+## Problem Set 5
+
+Ad-click Optimization Problem
+
+## Problem Set 6
+
+Energy Storage Problem
+
+## Problem Set 7
+
+Two-Agent Newsvendor Problem
+
+## Problem Set 8
+
+Clinical Trials Problem
+
+## Problem Set 9
+
+Revenue Management Problem
+
+## Problem Set 10
+
+Blood Management Problem
